@@ -1,0 +1,6 @@
+#!/bin/bash
+
+wget https://github.com/Wildlife-Systems/image-device-control/raw/master/idc-inst
+chown root:root idc-inst
+chmod +x idc-inst
+mv idc-inst /usr/bin
