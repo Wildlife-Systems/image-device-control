@@ -10,7 +10,7 @@ Devices that have been tested with these scripts are listed below. The short nam
 | RaspberryPi NoIR Camera | rpi-noir |
 
 ## Installing this package
-`wget -O - https://github.com/wildlife-systems/image-device-control/raw/master/install | sudo bash`
+`wget -O - https://github.com/Wildlife-Systems/image-device-control/raw/master/install | sudo bash`
 
 ## Installation of image device software
 The script `idc-inst` can be used to install various drivers for cameras and configure them. This is mainly of use in large scale, automated, heterogenous deployments but may simplify things for some other end users.
