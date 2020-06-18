@@ -1,0 +1,23 @@
+#!/bin/bash
+
+case "$1" in
+        list)
+                echo "none           None"
+                echo "rpi-cam        Raspberry Pi Camera"
+                echo "rpi-noir       Raspberry Pi NoIR Camera"
+                ;;
+        rpi-cam)
+                sudo raspi-config nonint do_camera 0
+                ;;
+        ai-octo)
+                sudo raspi-config nonint do_camera 0
+                ;;
+        none)
+                exit 0
+                ;;
+        *)
+                echo "$1 is not supported."
+                exit 1
+
+                ;;
+esac
