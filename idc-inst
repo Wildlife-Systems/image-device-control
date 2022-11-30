@@ -9,7 +9,7 @@ case "$1" in
         rpi-cam)
                 sudo raspi-config nonint do_camera 0
                 ;;
-        ai-octo)
+        rpi-noir)
                 sudo raspi-config nonint do_camera 0
                 ;;
         none)
@@ -19,6 +19,5 @@ case "$1" in
         *)
                 echo "$1 is not supported."
                 exit 1
-
                 ;;
 esac
