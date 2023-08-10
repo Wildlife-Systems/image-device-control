@@ -19,10 +19,7 @@ case "$1" in
                 echo "rpi-cam        Raspberry Pi Camera"
                 echo "rpi-noir       Raspberry Pi NoIR Camera"
                 ;;
-        rpi-cam)
-                sudo raspi-config nonint do_camera 0
-                ;;
-        rpi-noir)
+        rpi-cam|rpi-noir)
                 sudo raspi-config nonint do_camera 0
                 ;;
         none)
